@@ -82,3 +82,13 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Acknowledgments
 
 We extend our gratitude to the University of Utah for providing the resources and support necessary for this project. Special thanks to our mentors and peers who offered invaluable feedback during development.
+
+## Gallery
+
+![image](https://github.com/user-attachments/assets/5ea926b8-bd1c-430b-81e6-bb4274dcee70)
+
+![image](https://github.com/user-attachments/assets/30c4f9fa-87fb-4ba8-8a0b-2acdd67ca792)
+
+![image](https://github.com/user-attachments/assets/6f5072da-99fd-46d0-83f0-877b910185a2)
+
+![image](https://github.com/user-attachments/assets/f396fc04-f050-4b46-9f87-dd0aa0bcb970)
