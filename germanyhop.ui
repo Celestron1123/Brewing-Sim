@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>GermanyHop</class>
+ <widget class="QWidget" name="GermanyHop">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1120</width>
+    <height>630</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="continueButton">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>980</x>
+     <y>560</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    /* Base style */
+    color: white;
+    background-color: qlineargradient(
+        x1: 0, y1: 0, 
+        x2: 0, y2: 1, 
+        stop: 0 #5cb85c, 
+        stop: 1 #4cae4c);
+    border: none;
+    border-radius: 10px;
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    /* Slightly brighter on hover */
+    background-color: qlineargradient(
+        x1: 0, y1: 0, 
+        x2: 0, y2: 1, 
+        stop: 0 #66bb6a, 
+        stop: 1 #43a047);
+}
+
+QPushButton:pressed {
+    /* Darker when pressed */
+    background-color: qlineargradient(
+        x1: 0, y1: 0, 
+        x2: 0, y2: 1, 
+        stop: 0 #43a047, 
+        stop: 1 #388e3c);
+}
+
+/* Grey‐out when disabled */
+QPushButton:disabled {
+    color: #cccccc;  /* light grey text */
+    background-color: qlineargradient(
+        x1: 0, y1: 0,
+        x2: 0, y2: 1,
+        stop: 0 #b0b0b0,
+        stop: 1 #909090);
+    border: none;
+}</string>
+   </property>
+   <property name="text">
+    <string>Continue!</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="info">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>571</width>
+     <height>251</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Trebuchet MS</family>
+     <pointsize>11</pointsize>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: white;
+background: qlineargradient(
+        x1:0, y1:0, x2:0, y2:1,
+        stop:0 rgba(100, 100, 100, 100),
+        stop:1 rgba(30, 30, 30, 220)
+    );    
+border-radius: 20px;
+padding: 5px;</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Here is the boiling and hopping stage of the process. The wort is boiled for around 60-90 minutes, and during this process, hops are added to the wort. Hops are the flowers of the hop plant. Their addition gives the final beer bitterness, flavour, and aroma depending on when they are added to the boiling mixture.&lt;/p&gt;&lt;p&gt;Hops added early in the boiling process add more bitterness to the beer, while hops added towards the end of the boiling give more flavor and aroma.&lt;/p&gt;&lt;p&gt;Beyond the addition of hops, the boiling process also removes unwanted contaminates and reduces the water content, concentrating the final beer.&lt;/p&gt;&lt;p&gt;To continue to the next step, you must place all of the hops inside the boiling wort.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignmentFlag::AlignLeading|Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignTop</set>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

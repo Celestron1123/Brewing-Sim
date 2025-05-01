@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>BrazilOutro</class>
+ <widget class="QWidget" name="BrazilOutro">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1120</width>
+    <height>630</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1120</width>
+    <height>630</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="background">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1120</width>
+     <height>630</height>
+    </rect>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>1120</width>
+     <height>630</height>
+    </size>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="Pictures.qrc">:/Resources/pressBackground.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="table">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>330</y>
+     <width>1031</width>
+     <height>511</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="Pictures.qrc">:/Resources/table.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="returnButton">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>260</y>
+     <width>121</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    /* Base style */
+    color: white;
+    background-color: qlineargradient(
+        x1: 0, y1: 0, 
+        x2: 0, y2: 1, 
+        stop: 0 #5cb85c, 
+        stop: 1 #4cae4c);
+    border: none;
+    border-radius: 10px;
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    /* Slightly brighter on hover */
+    background-color: qlineargradient(
+        x1: 0, y1: 0, 
+        x2: 0, y2: 1, 
+        stop: 0 #66bb6a, 
+        stop: 1 #43a047);
+}
+
+QPushButton:pressed {
+    /* Darker when pressed */
+    background-color: qlineargradient(
+        x1: 0, y1: 0, 
+        x2: 0, y2: 1, 
+        stop: 0 #43a047, 
+        stop: 1 #388e3c);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Back to Map</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>110</y>
+     <width>301</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: white;
+background: qlineargradient(
+        x1:0, y1:0, x2:0, y2:1,
+        stop:0 rgba(100, 100, 100, 100),
+        stop:1 rgba(30, 30, 30, 220)
+    );    
+border-radius: 20px;
+padding: 5px;</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;Congratulations! &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;You have successfully brewed your own Cachaca.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="bottle">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>360</y>
+     <width>221</width>
+     <height>221</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="Pictures.qrc">:/Resources/cachacaBottle.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="Pictures.qrc"/>
+ </resources>
+ <connections/>
+</ui>

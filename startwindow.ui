@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>StartWindow</class>
+ <widget class="QWidget" name="StartWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1120</width>
+    <height>630</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="startBackground">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1120</width>
+     <height>630</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="Pictures.qrc">:/Resources/startBackground.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="startText">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>30</y>
+     <width>371</width>
+     <height>201</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="Pictures.qrc">:/Resources/startText.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="playButton">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>260</y>
+     <width>211</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>October Compressed Devanagari</family>
+     <pointsize>24</pointsize>
+     <italic>false</italic>
+     <bold>true</bold>
+     <underline>false</underline>
+     <strikeout>false</strikeout>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: #c97c41;
+    color: #fff5de;
+    padding: 10px 30px;
+    border-radius: 14px;
+    border: 2px solid #8a4f20;
+}
+
+QPushButton:hover {
+    background-color: #db945f;
+    border: 2px solid #703c18;
+}
+
+QPushButton:pressed {
+    background-color: #a95f2a;
+    margin-top: 2px;
+}
+
+QPushButton:focus {
+    outline: none;
+    border: 2px solid #ffe6a8;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Play</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="creditsButton">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>380</y>
+     <width>211</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>October Compressed Devanagari</family>
+     <pointsize>24</pointsize>
+     <italic>false</italic>
+     <bold>true</bold>
+     <underline>false</underline>
+     <strikeout>false</strikeout>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: #c97c41;
+    color: #fff5de;
+    padding: 10px 30px;
+    border-radius: 14px;
+    border: 2px solid #8a4f20;
+}
+
+QPushButton:hover {
+    background-color: #db945f;
+    border: 2px solid #703c18;
+}
+
+QPushButton:pressed {
+    background-color: #a95f2a;
+    margin-top: 2px;
+}
+
+QPushButton:focus {
+    outline: none;
+    border: 2px solid #ffe6a8;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Credits</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="exitButton">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>500</y>
+     <width>211</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>October Compressed Devanagari</family>
+     <pointsize>24</pointsize>
+     <italic>false</italic>
+     <bold>true</bold>
+     <underline>false</underline>
+     <strikeout>false</strikeout>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: #c97c41;
+    color: #fff5de;
+    padding: 10px 30px;
+    border-radius: 14px;
+    border: 2px solid #8a4f20;
+}
+
+QPushButton:hover {
+    background-color: #db945f;
+    border: 2px solid #703c18;
+}
+
+QPushButton:pressed {
+    background-color: #a95f2a;
+    margin-top: 2px;
+}
+
+QPushButton:focus {
+    outline: none;
+    border: 2px solid #ffe6a8;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="Pictures.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MexicoHarvest</class>
+ <widget class="QWidget" name="MexicoHarvest">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1120</width>
+    <height>630</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="background">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1121</width>
+     <height>631</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="Pictures.qrc">:/Resources/mexicoharvestblur.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="info">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>20</y>
+     <width>491</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Trebuchet MS</family>
+     <pointsize>11</pointsize>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: white;
+background: qlineargradient(
+        x1:0, y1:0, x2:0, y2:1,
+        stop:0 rgba(100, 100, 100, 100),
+        stop:1 rgba(30, 30, 30, 220)
+    );    
+border-radius: 20px;
+padding: 5px;</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;Here is a campground where blue agave plants are grown. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;These plants typically take 5 to 7 years to reach maturity and be ready for harvest. During harvesting, the large leaves are cut to only collect the &amp;quot;heart&amp;quot; of the plant, which is called the piña.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;Click on all three plants to collect the piñas before continuing.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignmentFlag::AlignLeading|Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignTop</set>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="agave2">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>230</y>
+     <width>471</width>
+     <height>431</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="Pictures.qrc">:/Resources/agaveplant.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="agave3">
+   <property name="geometry">
+    <rect>
+     <x>630</x>
+     <y>90</y>
+     <width>491</width>
+     <height>461</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: none; padding: 0px; margin: 0px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="Pictures.qrc">:/Resources/agaveplant.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="agave1">
+   <property name="geometry">
+    <rect>
+     <x>-80</x>
+     <y>160</y>
+     <width>491</width>
+     <height>481</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="Pictures.qrc">:/Resources/agaveplant.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="agave1btn">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>400</y>
+     <width>191</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background: transparent; border: none; </string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="agave2btn">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>440</y>
+     <width>191</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background: transparent; border: none; padding: 0px; margin: 0px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="agave3btn">
+   <property name="geometry">
+    <rect>
+     <x>770</x>
+     <y>330</y>
+     <width>191</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background: transparent; border: none; padding: 0px; margin: 0px; outline: none;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="continueBtn">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>980</x>
+     <y>20</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    /* Base style */
+    color: white;
+    background-color: qlineargradient(
+        x1: 0, y1: 0, 
+        x2: 0, y2: 1, 
+        stop: 0 #5cb85c, 
+        stop: 1 #4cae4c);
+    border: none;
+    border-radius: 10px;
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    /* Slightly brighter on hover */
+    background-color: qlineargradient(
+        x1: 0, y1: 0, 
+        x2: 0, y2: 1, 
+        stop: 0 #66bb6a, 
+        stop: 1 #43a047);
+}
+
+QPushButton:pressed {
+    /* Darker when pressed */
+    background-color: qlineargradient(
+        x1: 0, y1: 0, 
+        x2: 0, y2: 1, 
+        stop: 0 #43a047, 
+        stop: 1 #388e3c);
+}
+
+QPushButton:disabled {
+	background-color: rgba(44, 44, 44, 50)
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Continue!</string>
+   </property>
+  </widget>
+  <zorder>background</zorder>
+  <zorder>info</zorder>
+  <zorder>agave1</zorder>
+  <zorder>agave3</zorder>
+  <zorder>agave2</zorder>
+  <zorder>agave1btn</zorder>
+  <zorder>agave2btn</zorder>
+  <zorder>agave3btn</zorder>
+  <zorder>continueBtn</zorder>
+ </widget>
+ <resources>
+  <include location="Pictures.qrc"/>
+ </resources>
+ <connections/>
+</ui>

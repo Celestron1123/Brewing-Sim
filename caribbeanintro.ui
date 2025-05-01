@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CaribbeanIntro</class>
+ <widget class="QWidget" name="CaribbeanIntro">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1120</width>
+    <height>630</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="introBackground">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1120</width>
+     <height>630</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="Pictures.qrc">:/Resources/rumbackgroundclear.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="intro">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>70</y>
+     <width>911</width>
+     <height>411</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Trebuchet MS</family>
+     <pointsize>15</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: white;
+background: qlineargradient(
+        x1:0, y1:0, x2:0, y2:1,
+        stop:0 rgba(100, 100, 100, 100),
+        stop:1 rgba(30, 30, 30, 220)
+    );    
+border-radius: 20px;
+padding: 5px;</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Shape::NoFrame</enum>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Rum is a distilled spirit crafted from sugarcane byproducts like molasses or directly from sugarcane juice. Unlike grain-based spirits such as whiskey or beer, rum draws its richness from the tropical world of sugar plantations and carries a complex flavor profile shaped by various production processes.&lt;/p&gt;&lt;p&gt;Barbados proudly claims to be the birthplace of rum. The earliest mention of the word &amp;quot;rum&amp;quot; dates to a lease agreement written on March 30, 1650, at Three Houses plantation in St. Philip, Barbados. Mount Gay Distillery, established in 1703, is recognized as the world's oldest commercial rum distillery.&lt;/p&gt;&lt;p&gt;The traditional rum-making process includes gathering molasses, fermentation, distillation, maturation, and optionally blending and coloring or sweetening. Today, rum remains a symbol of Caribbean culture and creativity. From the smoky, aged rums of Jamaica to the light, crisp rums of Puerto Rico and the agricole varieties of Martinique, rum spans a wide flavor spectrum. It's sipped neat, mixed into classic cocktails, and celebrated worldwide for its deep cultural and historical significance. Now, it's your turn to brew a batch—let's dive in!&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignmentFlag::AlignHCenter|Qt::AlignmentFlag::AlignTop</set>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="start">
+   <property name="geometry">
+    <rect>
+     <x>510</x>
+     <y>490</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    /* Base style */
+    color: white;
+    background-color: qlineargradient(
+        x1: 0, y1: 0, 
+        x2: 0, y2: 1, 
+        stop: 0 #5cb85c, 
+        stop: 1 #4cae4c);
+    border: none;
+    border-radius: 10px;
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    /* Slightly brighter on hover */
+    background-color: qlineargradient(
+        x1: 0, y1: 0, 
+        x2: 0, y2: 1, 
+        stop: 0 #66bb6a, 
+        stop: 1 #43a047);
+}
+
+QPushButton:pressed {
+    /* Darker when pressed */
+    background-color: qlineargradient(
+        x1: 0, y1: 0, 
+        x2: 0, y2: 1, 
+        stop: 0 #43a047, 
+        stop: 1 #388e3c);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Start!</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="Pictures.qrc"/>
+ </resources>
+ <connections/>
+</ui>

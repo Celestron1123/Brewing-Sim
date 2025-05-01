@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ethiopiaphysics</class>
+ <widget class="QWidget" name="ethiopiaphysics">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1120</width>
+    <height>630</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="nextButton">
+   <property name="geometry">
+    <rect>
+     <x>870</x>
+     <y>350</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: white;
+    color: black;
+    border: 2px solid #4e342e;
+    border-radius: 6px;
+    padding: 6px;
+    font: bold 14pt &quot;Georgia&quot;;
+}
+QPushButton:hover {
+    background-color: #a96f4d;
+}
+QPushButton:disabled {
+    background-color: #dddddd;
+    color: gray;
+    border: 2px solid #999999;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Next Step</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="lidButton">
+   <property name="geometry">
+    <rect>
+     <x>870</x>
+     <y>50</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: white;
+    color: black;
+    border: 2px solid #4e342e;
+    border-radius: 6px;
+    padding: 6px;
+    font: bold 14pt &quot;Georgia&quot;;
+}
+QPushButton:hover {
+    background-color: #a96f4d;
+}
+QPushButton:disabled {
+    background-color: #dddddd;
+    color: gray;
+    border: 2px solid #999999;
+}</string>
+   </property>
+   <property name="text">
+    <string>Lid On/Off</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="waitButton">
+   <property name="geometry">
+    <rect>
+     <x>870</x>
+     <y>110</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: white;
+    color: black;
+    border: 2px solid #4e342e;
+    border-radius: 6px;
+    padding: 6px;
+    font: bold 14pt &quot;Georgia&quot;;
+}
+QPushButton:hover {
+    background-color: #a96f4d;
+}
+QPushButton:disabled {
+    background-color: #dddddd;
+    color: gray;
+    border: 2px solid #999999;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Wait</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="shortcutButton">
+   <property name="geometry">
+    <rect>
+     <x>870</x>
+     <y>0</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: white;
+    color: black;
+    border: 2px solid #4e342e;
+    border-radius: 6px;
+    padding: 6px;
+    font: bold 14pt &quot;Georgia&quot;;
+}
+QPushButton:hover {
+    background-color: #a96f4d;
+}
+QPushButton:disabled {
+    background-color: #dddddd;
+    color: gray;
+    border: 2px solid #999999;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Ez Move</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="honeyLabel">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>450</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+    background-color: white;
+    color: black;
+    border: 2px solid #4e342e;
+    border-radius: 6px;
+    padding: 6px;
+    font: bold 10pt &quot;Georgia&quot;;
+}</string>
+   </property>
+   <property name="text">
+    <string>Honey Blob</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="geshoLabel">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>450</y>
+     <width>61</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+    background-color: white;
+    color: black;
+    border: 2px solid #4e342e;
+    border-radius: 6px;
+    padding: 6px;
+    font: bold 10pt &quot;Georgia&quot;;
+}</string>
+   </property>
+   <property name="text">
+    <string>Gesho</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="yeastLabel">
+   <property name="geometry">
+    <rect>
+     <x>760</x>
+     <y>450</y>
+     <width>61</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+    background-color: white;
+    color: black;
+    border: 2px solid #4e342e;
+    border-radius: 6px;
+    padding: 6px;
+    font: bold 10pt &quot;Georgia&quot;;
+}</string>
+   </property>
+   <property name="text">
+    <string>Yeast</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>GermanyIntro</class>
+ <widget class="QWidget" name="GermanyIntro">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1120</width>
+    <height>630</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="background">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1121</width>
+     <height>631</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="Pictures.qrc">:/Resources/germanybackground.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="startButton">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>550</y>
+     <width>120</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    /* Base style */
+    color: white;
+    background-color: qlineargradient(
+        x1: 0, y1: 0, 
+        x2: 0, y2: 1, 
+        stop: 0 #5cb85c, 
+        stop: 1 #4cae4c);
+    border: none;
+    border-radius: 10px;
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    /* Slightly brighter on hover */
+    background-color: qlineargradient(
+        x1: 0, y1: 0, 
+        x2: 0, y2: 1, 
+        stop: 0 #66bb6a, 
+        stop: 1 #43a047);
+}
+
+QPushButton:pressed {
+    /* Darker when pressed */
+    background-color: qlineargradient(
+        x1: 0, y1: 0, 
+        x2: 0, y2: 1, 
+        stop: 0 #43a047, 
+        stop: 1 #388e3c);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Start!</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="intro">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>30</y>
+     <width>1081</width>
+     <height>501</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Trebuchet MS</family>
+     <pointsize>15</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: white;
+background: qlineargradient(
+        x1:0, y1:0, x2:0, y2:1,
+        stop:0 rgba(70, 70, 70, 220),
+        stop:1 rgba(30, 30, 30, 220)
+    );    
+border-radius: 20px;
+padding: 5px;</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Shape::NoFrame</enum>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Prost! Welcome to our Beer brewing station!&lt;/p&gt;&lt;p&gt;Beer, in its modern form, is a beloved alcoholic beverage brewed primarily from malted barley, water, yeast, and notably, hops. While fermented grain beverages trace their roots back thousands of years to ancient civilizations like China and Mesopotamia, today's distinctively flavorful beer originated in Europe, particularly thanks to the innovative use of hops for flavoring and preservation. The addition of hops first became prevalent around the 9th century in Germanic monasteries, significantly shaping beer's aroma, bitterness, and shelf life, ultimately laying the foundation for the beers we cherish today.&lt;/p&gt;&lt;p&gt;Germany, with its Reinheitsgebot (purity law) dating back to 1516, profoundly influenced modern brewing practices by emphasizing quality and consistency. Beer quickly became an integral part of European culture and daily life, often safer to consume than water due to the antiseptic properties of hops and fermentation. Over the centuries, European beer culture flourished, resulting in iconic beer styles such as German Pilsners, British IPAs, and Belgian ales.&lt;/p&gt;&lt;p&gt;In contemporary times, beer remains central to European traditions and social gatherings, celebrated in festivals like Germany's Oktoberfest and Belgium's Beer Weekends. Globally, craft beer's popularity has surged, driven by innovation in hop varieties, brewing techniques, and renewed appreciation for nuanced flavors. Today, beer is enjoyed worldwide for its rich diversity, from classic European lagers to creative, hop-forward craft brews, pairing seamlessly with cuisine and fostering vibrant social connections.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignmentFlag::AlignHCenter|Qt::AlignmentFlag::AlignTop</set>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="Pictures.qrc"/>
+ </resources>
+ <connections/>
+</ui>

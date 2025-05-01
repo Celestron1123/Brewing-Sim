@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ethiopiaoutro</class>
+ <widget class="QWidget" name="ethiopiaoutro">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1120</width>
+    <height>660</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTextBrowser" name="infoTextBox">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>0</y>
+     <width>1081</width>
+     <height>291</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: white;
+background: qlineargradient(
+        x1:0, y1:0, x2:0, y2:1,
+        stop:0 rgba(100, 100, 100, 100),
+        stop:1 rgba(30, 30, 30, 220)
+    );    
+border-radius: 20px;
+padding: 5px;</string>
+   </property>
+   <property name="html">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+hr { height: 1px; border-width: 0; }
+li.unchecked::marker { content: &quot;\2610&quot;; }
+li.checked::marker { content: &quot;\2612&quot;; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Congratulations — you've successfully crafted one of Ethiopia’s most beloved traditional beverages: Tej.&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Tej is a golden, honey-based wine enriched with the leaves and stems of the &lt;span style=&quot; font-style:italic;&quot;&gt;Rhamnus prinoides&lt;/span&gt; plant, locally known as gesho. This unique ingredient acts both as a natural preservative and a bittering agent, giving Tej its signature flavor profile — a balance of floral sweetness and subtle herbal sharpness.&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;With origins tracing back to the ancient Aksumite Empire (circa 1st century AD), Tej has been cherished for centuries as more than just a drink — it's a symbol of hospitality, unity, and cultural identity. Traditionally served in bereles (glass flasks with narrow necks), Tej graces the tables of weddings, religious celebrations, communal feasts, and holiday gatherings across Ethiopia. Its golden hue and fragrant bouquet make it a centerpiece of joy and tradition.&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;The brewing process you’ve just completed mirrors techniques passed down through generations. In many Ethiopian households, especially in rural areas, brewing Tej is an intergenerational ritual, with elders teaching the youth the art of fermentation. The process is deceptively simple — honey, water, gesho, and time — yet deeply nuanced. As yeast transforms the sugars into alcohol, the mixture ferments over several days or weeks, developing a rich, layered taste that’s never quite the same twice.&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;By making Tej, you haven’t just created a beverage — you've engaged with a living tradition. This ritual connects people across time, place, and identity — from highland villages to bustling urban centers, and from the Horn of Africa to diaspora communities worldwide.&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Now that your Tej is complete, it’s time to raise a glass — or a berelé — in celebration.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="finishButton">
+   <property name="geometry">
+    <rect>
+     <x>950</x>
+     <y>340</y>
+     <width>151</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: white;
+    color: black;
+    border: 2px solid #4e342e;
+    border-radius: 6px;
+    padding: 6px;
+    font: bold 14pt &quot;Georgia&quot;;
+}
+QPushButton:hover {
+    background-color: #a96f4d;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Back to Map</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
